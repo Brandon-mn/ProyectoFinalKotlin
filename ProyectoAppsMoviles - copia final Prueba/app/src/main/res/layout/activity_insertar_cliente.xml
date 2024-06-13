@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nombre del cliente"
+        android:padding="8dp"
+        android:background="?android:attr/editTextBackground" />
+
+    <EditText
+        android:id="@+id/direccionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Direccion del cliente"
+        android:padding="8dp"
+        android:background="?android:attr/editTextBackground" />
+
+    <EditText
+        android:id="@+id/telefonoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="elefono del cliente"
+        android:padding="8dp"
+        android:background="?android:attr/editTextBackground" />
+    <EditText
+        android:id="@+id/statusEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Estado de la categoría"
+        android:padding="8dp"
+        android:background="?android:attr/editTextBackground" />
+
+    <Button
+        android:id="@+id/aceptarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/regresarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:padding="16dp" />
+</LinearLayout>

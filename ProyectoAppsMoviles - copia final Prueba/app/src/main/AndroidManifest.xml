@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoAppsMoviles"
+        tools:targetApi="31">
+        <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoriaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".ClienteActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".EmpleadoActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".ProductoActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".ProveedorActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".ProveedorProductoActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+        <activity
+            android:name=".VentaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProyectoAppsMoviles" />
+    </application>
+
+</manifest>
